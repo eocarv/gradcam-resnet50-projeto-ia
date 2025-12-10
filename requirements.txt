@@ -1,0 +1,22 @@
+# Pytorch CPU
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.3.1+cpu
+torchvision==0.18.1+cpu
+
+# UI
+streamlit
+matplotlib==3.8.4
+
+
+# Fixes de compatibilidade
+pydantic<2.11
+huggingface_hub<1.0
+
+# Base
+numpy
+pillow
+opencv-python-headless
+scikit-image
+
+
+
